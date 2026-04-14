@@ -1,19 +1,19 @@
 const CACHE_NAME = "satvik-static-v1";
 const OFFLINE_ASSETS = [
-  "/",
-  "/index.html",
-  "/menu.html",
-  "/cabins.html",
-  "/reviews.html",
-  "/assets/css/styles.css",
-  "/assets/js/app.js",
-  "/assets/img/logo.jpg",
-  "/assets/img/interior-1.jpg",
-  "/assets/img/interior-2.jpg",
-  "/assets/img/interior-wide.jpg",
-  "/assets/img/hero-restaurant.jpg",
-  "/assets/img/dish-dal.jpg",
-  "/assets/img/table-spread.jpg"
+  "./",
+  "index.html",
+  "menu.html",
+  "cabins.html",
+  "reviews.html",
+  "assets/css/styles.css",
+  "assets/js/app.js",
+  "assets/img/logo.jpg",
+  "assets/img/interior-1.jpg",
+  "assets/img/interior-2.jpg",
+  "assets/img/interior-wide.jpg",
+  "assets/img/hero-restaurant.jpg",
+  "assets/img/dish-dal.jpg",
+  "assets/img/table-spread.jpg"
 ];
 
 self.addEventListener("install", (event) => {
